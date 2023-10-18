@@ -25,7 +25,7 @@ pipeline {
     // the pipeline section we all know and love: stages! :D
     stages {
         stage('Requirements') {
-            steps {
+            step {
                 echo 'Installing requirements...'
             }
         }
