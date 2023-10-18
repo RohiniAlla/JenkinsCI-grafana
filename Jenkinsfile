@@ -48,6 +48,7 @@ pipeline {
 
     // the post section is a special collection of stages
     // that are run after all other stages have completed
+    // 1234
     post {
 
         // the always stage will always be run
