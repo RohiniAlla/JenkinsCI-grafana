@@ -8,7 +8,7 @@ pipeline {
         buildDiscarder(logRotator(daysToKeepStr: '10', numToKeepStr: '10'))
 
         // cause the build to time out if it runs for more than 12 hours
-        timeout(time: 12, unit: 'HOURS')
+        timeout(time: 11, unit: 'HOURS')
 
         // add timestamps to the log
         timestamps()
